@@ -48,14 +48,14 @@
                 android:textColor="@color/lb_tv_white" />
 
             <TextView
+                android:id="@+id/message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Medium large text"
-                android:id="@+id/message"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1"
                 android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:text="Medium large text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/lb_tv_white" />
         </LinearLayout>
 

@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">robo.TV</string>
-    <string name="robotv_input" translatable="false">roboTV</string>
-    <string name="robotv_input_label" translatable="false">roboTV</string>
+    <string name="app_name">VDR</string>
+    <string name="robotv_input" translatable="false">VDR</string>
+    <string name="robotv_input_label" translatable="false">VDR</string>
     <string name="connect_unable">Unable to connect to server !</string>
 
-    <string name="setup_root_server_desc">roboTV server address</string>
+    <string name="setup_root_server_desc">VDR server address</string>
     <string name="setup_root_language_title">Audio language</string>
     <string name="setup_root_refreshrate_title">TV refresh rate</string>
     <string name="setup_root_import_title">Import channels</string>
     <string name="setup_root_import_desc">Refresh TV channels</string>
-    <string name="setup_root_title">roboTV Setup</string>
-    <string name="setup_root_desc">Setup roboTV and import channels</string>
+    <string name="setup_root_title">VDR Setup</string>
+    <string name="setup_root_desc">Setup VDR and import channels</string>
     <string name="setup_language_title">Audio Language</string>
     <string name="setup_language_desc">Set your preferred channel audio language</string>
     <string name="setup_refreshrate_title">TV refresh rate</string>
@@ -35,7 +35,7 @@
         <item></item>
     </string-array>
 
-    <string name="browse_title">roboTV Movies</string>
+    <string name="browse_title">PLEX Movies</string>
     <string name="related_movies">Related Videos</string>
     <string name="ok">OK</string>
     <string name="loading">Loading…</string>
@@ -73,7 +73,7 @@
     <string name="receivers_busy">All receivers busy</string>
     <string name="blocked_by_recording">Channel blocked by recording</string>
 
-    <string name="service_connected">roboTV service connected</string>
+    <string name="service_connected">VDR backend connected</string>
     <string name="timer_add_desc" translatable="false">%1$s%2$s - %3$s</string>
     <string name="timer_add_create">Create Timer</string>
     <string name="timer_add_select_folder">Select Folder</string>
@@ -107,7 +107,7 @@
     <string name="movie_move_to_folder">Move to folder</string>
     <string name="season_nr">Season %1$d</string>
     <string name="episode_nr">Episode %1$d</string>
-    <string name="service_not_connected">roboTV service not connected</string>
+    <string name="service_not_connected">VDR backend not connected</string>
     <string name="timer_created">Timer created</string>
     <string name="failed_create_timer">Failed to create timer !</string>
     <string name="error">Error</string>

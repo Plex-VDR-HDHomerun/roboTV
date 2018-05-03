@@ -20,9 +20,9 @@ allprojects {
     }
     project.ext {
         minSdkVersion=22
-        compileSdkVersion=27
-        targetSdkVersion=27
-        buildToolsVersion='27.0.1'
+        compileSdkVersion=26
+        targetSdkVersion=26
+        buildToolsVersion='27.0.3'
         exoPlayerVersion='2.6.1'
         supportVersion='27.0.2'
         glideVersion='4.4.0'
