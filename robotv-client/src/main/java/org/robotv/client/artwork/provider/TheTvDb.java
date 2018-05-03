@@ -25,7 +25,7 @@ public class TheTvDb extends HttpArtworkProvider {
     private final static String TAG = "TheTvDb";
     private final static String baseUrl = "https://api.thetvdb.com";
     private final static String imageBaseUrl = "http://www.thetvdb.com/banners/";
-    private final static String apiKey = "201D2A17712E85AF";
+    private final static String apiKey = "075D18194449346A";
 
     private String language;
     static private String token;

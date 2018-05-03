@@ -35,7 +35,7 @@
         <item></item>
     </string-array>
 
-    <string name="browse_title">PLEX Movies</string>
+    <string name="browse_title">PLEX DVR</string>
     <string name="related_movies">Related Videos</string>
     <string name="ok">OK</string>
     <string name="loading">Loading…</string>
