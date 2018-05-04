@@ -179,7 +179,6 @@ public class PacketAdapter {
                 (int)response.getU32(),
                 response.getString(),
                 (int) response.getU32(),
-                (int) response.getU32(),
                 response.getString(),
                 response.getString());
 
