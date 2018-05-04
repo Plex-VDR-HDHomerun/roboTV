@@ -76,7 +76,7 @@ public class Event implements Serializable {
 
     private static String[] genreFilm = {
         "adventure",
-        "actiond drama",
+        "action drama",
         "action",
         "animation",
         "cartoon",
