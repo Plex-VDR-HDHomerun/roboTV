@@ -22,10 +22,10 @@ import okhttp3.Response;
 
 public class TheTvDb extends HttpArtworkProvider {
 
-    private final static String TAG = "TheTvDb";
-    private final static String baseUrl = "https://api.thetvdb.com";
-    private final static String imageBaseUrl = "http://www.thetvdb.com/banners/";
-    private final static String apiKey = "075D18194449346A";
+    private final static String TAG = "TmsApi";
+    private final static String baseUrl = "http://data.tmsapi.com";
+    private final static String imageBaseUrl = "http://data.tmsapi.com/v1.1/programs/assets/";
+    private final static String apiKey = "m5cuunvsby84wxnaxf9eagmu";
 
     private String language;
     static private String token;
@@ -151,7 +151,7 @@ public class TheTvDb extends HttpArtworkProvider {
     }
 
     private int search(String title) {
-        JSONArray data = request("/search/series?name=" +  URLEncoder.encode(title), this.language);
+        JSONArray data = request("/programs/search?q=" +  URLEncoder.encode(title), this.language);
 
         if(data == null) {
             return 0;
@@ -169,7 +169,7 @@ public class TheTvDb extends HttpArtworkProvider {
     }
 
     private JSONArray getFanart(int id) {
-        String url = "/series/" + id + "/images/query?keyType=fanart&resolution=1920x1080&subKey=graphical";
+        String url = "/programs/" + id + "/images?imageSize=Lg&imageAspectTV=16x9";
         JSONArray data = request(url, this.language);
 
         if(data == null && !this.language.equals("en")) {
@@ -184,7 +184,7 @@ public class TheTvDb extends HttpArtworkProvider {
     }
 
     private JSONArray getPosters(int id) {
-        String url = "/series/" + id + "/images/query?keyType=poster";
+        String url = "/programs/" + id + "/images?imageSize=Lg&imageAspectTV=4x3";
 
         JSONArray data = request(url, this.language);
 
