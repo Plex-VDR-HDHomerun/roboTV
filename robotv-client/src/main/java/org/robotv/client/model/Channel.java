@@ -5,6 +5,7 @@ public class Channel {
     private int number = 0;
     private String name;
     private int uid = 0;
+    private int caid = 0;
     private String iconURL;
     private String serviceReference;
     private String groupName;
@@ -12,10 +13,11 @@ public class Channel {
     private String channelUri;
     private String inputId = null;
 
-    public Channel(int number, String name, int uid, String iconUrl, String serviceReference) {
+    public Channel(int number, String name, int uid, int caid, String iconUrl, String serviceReference) {
         this.number = number;
         this.name = name;
         this.uid = uid;
+        this.caid = caid;
         this.iconURL = iconUrl;
         this.serviceReference = serviceReference;
     }
@@ -30,6 +32,10 @@ public class Channel {
 
     public int getUid() {
         return uid;
+    }
+
+    public int getCaid() {
+        return caid;
     }
 
     public String getIconURL() {
